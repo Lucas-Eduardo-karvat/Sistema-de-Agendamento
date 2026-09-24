@@ -31,7 +31,7 @@ public class Usuario {
     private String email;
 
     @Column(name = "senha_hash", nullable = false)
-    private String senha;
+    private String senhaHash;
 
     @Column(nullable = false, length = 20)
     private String telefone;
